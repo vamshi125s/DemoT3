@@ -1,0 +1,8 @@
+Types of functions:
+1. Named function
+2. Anonymus function
+3. Function expressions
+4. Immediate invoke function expression(IIFE)
+5. Arrow function
+6. Higher order function
+7. Callback function
