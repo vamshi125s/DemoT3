@@ -1,0 +1,1 @@
+in browser if we want to run js file or css file then we must connect those files with html file
