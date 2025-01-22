@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> e3c2dd5760708ef2d7ef75b14ac4d5952ed23895
 // console.log(10);
 // console.log(20);
 // // setTimeout(()=>{
@@ -14,7 +10,6 @@
 // console.log(40);
 // console.log(50);
 
-<<<<<<< HEAD
 //! Promise
 
 // let p1 = new Promise((resolve , reject)=>{});
@@ -38,32 +33,30 @@
 // p3.catch(error=>{console.log(error)} )
 // p3.finally(()=>{console.log("finally for both")})
 
-
 // API fetching
 
-
-
-
-=======
-
-
-// promise :
-
-// let p1 =  new Promise((resolve,reject)=>{});
-// console.log(p1);
-
-// let p2 = new Promise((resolve,reject)=>{
-//     resolve("Success");
-// })
-// // console.log(p2);
-// p2.then((response)=> console.log(response))
-// p2.catch((error)=> console.log(error))
-// p2.finally(()=> console.log("Finally for both"))
-
-
-// let p3 = new Promise((resolve,reject)=>{
-//     reject("Failure");
-// })
-// console.log(p3);
->>>>>>> e3c2dd5760708ef2d7ef75b14ac4d5952ed23895
-
+function fetchUsers(){
+    let response = fetch("https://jsonplaceholder.typicode.com/users");
+    // console.log(response);
+    response.then(result=>{
+        //console.log.json();
+        return result.json().then(data=>{
+            // console.log(data);
+            console.log(data);
+            let store = document.getElementById("store");
+            console.log(store);
+            data.map(user=>{
+                store.innerHTML +=`
+                <tr>
+                    <td>{user.id}</td>
+                    <td>{user.name}</td>
+                    <td>{user.email}</td>
+                    <td>{user.company.name}</td>
+                </tr>
+                `
+            })
+        })
+    })
+    .catch(err=>console.log(err))
+}
+fetchUsers();
