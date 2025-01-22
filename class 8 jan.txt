@@ -1,0 +1,27 @@
+Looping statements:
+
+- to execute the block of code repeatedly till the condition is true.
+
+- for loop - used when we know the no. of iterations.
+
+for(initialization;condition;updation){
+    //statements
+}
+
+- while - will be used when we dont know the iteration count
+
+while(condition){
+    //statements
+}
+
+- do while - will be used when we dont know the iteration count
+
+do(){
+    //statements
+}
+while(condition)
+
+
+- entry-controlled loops - for, while - minimum iteration count is 0
+- exit- controlled loop - do while - minimum iteration count is 1
+

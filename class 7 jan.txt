@@ -1,0 +1,49 @@
+Operators:
+
+- it is a special type of symbol used to compare the operands and give the output of boolean data type
+
+Types of Operators:
+
+1. arithmetic operators
+- addition
+- subtraction
+- multiplication
+- division
+- modulus
+- exponential
+- increment (++) - increment will happen with one value 
+    - a++ - increment after using the variable - pre-increment
+    - ++a - increment before using the variable - post-increment
+- decrement (--) - decrement will happen with one value 
+    - a-- - decrement after using the variable - pre-decrement
+    - --a - decrement before using the variable - post-decrement
+
+
+2. logical operators
+- AND(&&) - true both the conditions are true and returns false when either the conditions and false or both the conditions are false
+- OR(||) - true when both conditions or either condition is true and returns false when both the conditions are false
+- NOT (!) - returns true when the result is false and vice-versa
+
+3. relational operators
+- which are used to compare two values
+- ==,===,!=,!==,<=,>=,<,>
+- == - checks only values not data type
+- === - checks both values and data type
+
+4. assignment operators - "="
+- assignment operator is used to assign values to the variables, without them the values cannot be assignment to the variables to use them
+    - unary operator - a+=10 => a=a+10
+                     - a-=10 => a=a-10
+
+
+Decision making statements:
+
+- The statements which are used to control the flow of program with the given conditions.
+- if - it will work for true statements only
+- if else - if block will work if the condition is true and else block will when if the condition is false
+- else if ladder - if block will work if the condition is true and else if contains of conditions which are checked and are executed if the conditions are true or else it will go to next else if block or else block and else block will when if all the conditions are false
+- switch - 
+- ternary
+
+
+- prompt method- it is used to collect to data from the user through a dialog box.
