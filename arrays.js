@@ -101,15 +101,15 @@
 
 //! JSON 
 
-let userDetails ={
-    name:"Sam",
-    age:25,
-    city:"Hyd"
-};
-console.log(userDetails);
+// let userDetails ={
+//     name:"Sam",
+//     age:25,
+//     city:"Hyd"
+// };
+// console.log(userDetails);
 
-let x = JSON.stringify(userDetails);
-console.log("JSON object "+x);
+// let x = JSON.stringify(userDetails);
+// console.log("JSON object "+x);
 
-let  y = JSON.parse(x);
-console.log(y);
+// let  y = JSON.parse(x);
+// console.log(y);
